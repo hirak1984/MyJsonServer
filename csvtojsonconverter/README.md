@@ -1,6 +1,11 @@
 Converts information provided in CSV format into JSON format and vice-versa.
 
-## Usage - ##
+## Usage (App jar level)- ##
+
+`java -cp csvtojsonconverter-1.0.jar;lib/* hrk.timeline.App "C:\tmp\data.csv" "C:\tmp\data.json" `
+
+
+## Usage (Source code level)- ##
 
 `TestFormat testFormatJSON = CSV_JSON_ADAPTER.fromJSON(new FileReader(new File(directory, "data.json")));`
 
