@@ -25,8 +25,8 @@ public class AppTest {
 	@Test
 	public void testDataLoad() {
 		try {
-			TestFormat testFormatJSON = CSV_JSON_ADAPTER.fromJSON(new FileReader(new File(directory, "data.json")));
-			TestFormat testFormatCSV = CSV_JSON_ADAPTER.fromCSV(new FileReader(new File(directory, "data.csv")));
+			TestFormat testFormatJSON = CSV_JSON_ADAPTER.fromJSON(new FileReader(directory));
+			TestFormat testFormatCSV = CSV_JSON_ADAPTER.fromCSV(new FileReader(directory));
 			assertTrue(testFormatJSON.equals(testFormatCSV));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

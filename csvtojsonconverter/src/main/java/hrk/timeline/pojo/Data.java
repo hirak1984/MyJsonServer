@@ -94,5 +94,10 @@ public class Data {
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "Data [dateText=" + dateText + ", title=" + title + ", subtitle=" + subtitle + ", texts=" + texts + "]";
+	}
     
 }

@@ -49,9 +49,11 @@ public class CSV_JSON_ADAPTER {
 		};
 		arrayToDelimitedString.accept(new String[] { "dateText", "title", "subtitle", "texts" });
 
-		testFormat.getData().stream().forEach(d -> {
-			d.getTexts().stream().forEach(text -> arrayToDelimitedString
-					.accept(new String[] { d.getDateText(), d.getTitle(), d.getSubtitle(), text }));
+		testFormat.getData().stream().filter(data->data!=null).forEach(d -> {
+			d.getTexts().stream().filter(text->text!=null).forEach(text -> {
+				arrayToDelimitedString.accept(new String[] { d.getDateText(), d.getTitle(), d.getSubtitle(), text })	;
+			}
+			);
 		});
 
 	}
