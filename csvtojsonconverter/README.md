@@ -1,6 +1,10 @@
 Converts information provided in CSV format into JSON format and vice-versa.
 
-## Usage - ##
+## Usage (App jar level)- ##
+
+
+
+## Usage (Source code level)- ##
 
 `TestFormat testFormatJSON = CSV_JSON_ADAPTER.fromJSON(new FileReader(new File(directory, "data.json")));`
 
