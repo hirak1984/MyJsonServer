@@ -74,7 +74,6 @@ public class CSV_JSON_ADAPTER {
 			List<Data> dataList = new LinkedList<>();
 			Data data = null;
 			for (CSVRecord record : records) {
-				System.out.println(record);
 				String dateText = record.get("dateText");
 				String title = record.get("title");
 				String subtitle = record.get("subtitle");
