@@ -27,12 +27,9 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Go to java project source
-      run: cd  $GITHUB_WORKSPACE
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B package --file $GITHUB_WORKSPACE/csvtojsonconverter/target/pom.xml
     # Runs a set of commands using the runners shell
     - name: Go to target folder and execute the program
       run: |
-        cd ./csvtojsonconverter/target,
         java -version
