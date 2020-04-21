@@ -35,6 +35,8 @@ jobs:
         java -cp $GITHUB_WORKSPACE/csvtojsonconverter/target/csvtojsonconverter-1.0.jar:$GITHUB_WORKSPACE/csvtojsonconverter/target/lib/* hrk.timeline.App $GITHUB_WORKSPACE/data/csv $GITHUB_WORKSPACE/data/json CSV2JSON
     - name: Commit results back to Github
       run: |
+          git config --global user.email "hirak1984@gmail.com"
+          git config --global user.name "Hirak Chatterjee"
           git add $GITHUB_WORKSPACE/data/json --all
           git commit -am "JSON files produced by program execution"
           git push    
