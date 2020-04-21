@@ -28,11 +28,11 @@ jobs:
       with:
         java-version: 1.8
     - name: Go to java project source
-      run: cd  $GITHUB_WORKSPACE/csvtojsonconverter
+      run: cd  $GITHUB_WORKSPACE
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     # Runs a set of commands using the runners shell
     - name: Go to target folder and execute the program
       run: |
-        cd target,
+        cd ./csvtojsonconverter/target,
         java -version
