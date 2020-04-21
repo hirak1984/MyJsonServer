@@ -25,9 +25,9 @@ public final class App {
 		if (args == null || args.length < 2) {
 			String message = String.join(System.getProperty("line.separator"), "Please provide valid arguments",
 					"*** Usage *** ",
-					"App \"SOURCE_FILE_ABS_PATH\" \"TARGET_FILE_ABS_PATH\" <OPERATION>(Optional.CSV2JSON(default) or JSON2CSV)",
-					"Example-1 - ", "JSON_FILE_ABS_PATH CSV_FILE_ABS_PATH JSON2CSV", "Example- 2 - ",
-					"CSV_FILE_PATH JSON_FILE_PATH CSV2JSON");
+					"App \"SOURCE_FILE/FOLDER_ABS_PATH\" \"TARGET_FILE/FOLDER_ABS_PATH\" <OPERATION>(Optional.CSV2JSON(default) or JSON2CSV)",
+					"Example-1 - ", "JSON_FILE/FOLDER_ABS_PATH CSV_FILE/FOLDER_ABS_PATH JSON2CSV", "Example- 2 - ",
+					"CSV_FILE/FOLDER_PATH JSON_FILE/FOLDER_PATH CSV2JSON");
 
 			throw new IllegalArgumentException(message);
 		}
