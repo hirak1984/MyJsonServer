@@ -45,11 +45,16 @@ public final class App {
 
 		if (sourceFile.isDirectory() && targetFile.isDirectory()) {
 			File[] sources = sourceFile.listFiles(ops.fileMetadataHelper.get().getFileFilter());
-			for (File s : sources) {
-				String fileNameWithoutExt = FilenameUtils.getBaseName(s.getName());
-				File t = new File(targetFile, fileNameWithoutExt + ops.fileMetadataHelper.get().getTargetExtension());
-				process(s, t, ops);
+			if(sources==null || sources.length==0) {
+				System.out.println("No files in source folder are eligible for processing");
+			}else {
+				for (File s : sources) {
+					String fileNameWithoutExt = FilenameUtils.getBaseName(s.getName());
+					File t = new File(targetFile, fileNameWithoutExt + ops.fileMetadataHelper.get().getTargetExtension());
+					process(s, t, ops);
+				}
 			}
+
 		} else {
 			process(sourceFile, targetFile, ops);
 		}
