@@ -32,4 +32,4 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Go to target folder and execute the program
       run: |
-        java -version
+        java -cp $GITHUB_WORKSPACE/csvtojsonconverter/target/csvtojsonconverter-1.0.jar;$GITHUB_WORKSPACE/csvtojsonconverter/target/lib/* hrk.timeline.App $GITHUB_WORKSPACE/data/csv $GITHUB_WORKSPACE/data/json CSV2JSON
