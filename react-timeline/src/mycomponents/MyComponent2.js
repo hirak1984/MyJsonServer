@@ -15,7 +15,7 @@ export class MyComponent2 extends Component {
         this.state = { title: "", data: [] };
     }
     fetchData = () => {
-        let url = 'https://raw.githubusercontent.com/hirak1984/VariousTimelines/master/CanadaHistory.json';
+        let url = 'https://raw.githubusercontent.com/hirak1984/VariousTimelines/master/data/json/CanadaHistory.json';
         axios.get(url)
             .then(res => {
                 const data = res.data;

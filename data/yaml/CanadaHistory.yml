@@ -21,10 +21,10 @@ headers:
   - title: Vikings
     texts:
     - The Vikings from Iceland reached Labrador and the island of Newfoundland.
-    - The remains of their settlement, l'Anse aux Meadows, are a World Heritage site.
+    - The remains of their settlement, <I><U>l'Anse aux Meadows</U></I>, are a World Heritage site.
   - title: Europeans exploration
     texts:
-    - Expedition of John Cabot.
+    - Expedition of <U>John Cabot</U>.
     - First to draw a map of Canada's East coast.
 - title: Naming Canada
   dateFrom: 1534-01-01
@@ -32,7 +32,7 @@ headers:
   subHeaders: 
   - title: Jacques Cartier
     texts:
-    - Jacques Cartier made three voyages across the Atlantic, claiming the land for King Francis.
+    - <U>Jacques Cartier</U> made three voyages across the Atlantic, claiming the land for <U>King Francis</U>.
     - Cartier heard two captured natives speak the Iroquoian word <I>kanata</I>, meaning "village".
     - By 1550s, the name of Canada began appearing on maps.    
 - title: Royal New France
@@ -41,27 +41,24 @@ headers:
   subHeaders: 
   - title: Acadia
     texts:
-    - Pierre de Monts and Samuel de Champlain established settlement at Port-Royal in Acadia(present day Nova-Scotia) in 1604.
+    - <U>Pierre de Monts and <U>Samuel de Champlain established settlement at <I><U>Port-Royal in <I><U>Acadia(present day Nova-Scotia) in 1604.
   - title: Quebec
     dateFrom: ''
     dateTo:  ''
     texts:
-    - In 1608 Champlain build a fortress at what is now Quebec City.
-  - title: Acadia
-    texts:
-    - Pierre de Monts and Samuel de Champlain established settlement at Port-Royal in Acadia(present day Nova-Scotia) in 1604.        
+    - In 1608 Champlain build a fortress at what is now <I><U>Quebec City.
   - title: Peace treaty
     texts:
-    - The French allied with the Algonquin,Montagnais and Huron to fight against historic enemy Iroquois.
+    - The French allied with the <I><U>Algonquin,Montagnais and Huron</U></I> to fight against historic enemy <I><U>Iroquois</U></I>.
     - Peace was made in 1701 between French allies and Iroquois.
-    - Leaders like Jean Talon,Bishop Laval and Count Frontenac built a French Empire in North America that reached from Hudson Bay to the Gulf of Mexico.
+    - Leaders like <U>Jean Talon,Bishop Laval and Count Frontenac</U> built a French Empire in North America that reached from Hudson Bay to the Gulf of Mexico.
 - title: English Connection
   dateFrom: 1670-01-01
   dateTo:  ''
   subHeaders: 
   - title: Hudson's Bay Company
     texts:
-    - King Charles II of England granted the Hudson's Bay Company exclusive trading rights over the watershed draining into Hudson Bay.            
+    - <I><U>King Charles II</U></I> of England granted the Hudson's Bay Company exclusive trading rights over the watershed draining into Hudson Bay.            
 - title: Democracy
   dateFrom: 1758-01-01
   dateTo:  ''
@@ -93,7 +90,7 @@ headers:
   - title: Independence
     texts:
     - 13 British colonies to the south of Quebex declared independence and formed the United States.
-    - More than 40000 people loyal to the Crown called "Loyalists" fled the American Revolution to settle in Nova Scotia and Quebec
+    - More than 40000 people loyal to the Crown called <I><U>"Loyalists"</U></I> fled the American Revolution to settle in Nova Scotia and Quebec
 - title: Slavery
   dateFrom: 1791-01-01
   dateTo:  1833-01-01
@@ -107,12 +104,12 @@ headers:
     dateFrom: 1792-01-01
     dateTo:  ''
     texts:
-    - Some black Nova Scotians who were given poor land, moved on to establish Freetown, Sierra Leone(West Africa), a new British colony for freed slaves.
+    - Some black Nova Scotians who were given poor land, moved on to establish Freetown, <I><U>Sierra Leone</U></I>(West Africa), a new British colony for freed slaves.
   - title: Simcoe
     dateFrom: 1792-01-01
     dateTo:  1833-01-01
     texts:
-    - John Graves Simcoe led Upper Canada to move towards abolition of slavery.
+    - John Graves Simcoe led Upper Canada to move towards <B>abolition of slavery</B>.
     - Buying and selling of slaves was abolished throughout British empire in 1833.
 - title: The fight for Canada
   dateFrom: 1812-01-01
@@ -120,14 +117,14 @@ headers:
   subHeaders: 
   - title: Present day border between CAN and USA
     texts:
-    - 1813 - lieutenant-Colonel Charles de Salaberry and mostly French soldiers turned back Americans at Chateauguay, Montreal.
+    - 1813 - lieutenant-Colonel <U>Charles de Salaberry</U> and mostly French soldiers turned back Americans at Chateauguay, Montreal.
     - 1813-Americans burned down parliament building in York (now Toronto)
-    - 1814-Soldiers led by Major-General Robert Ross burnt down White House.
+    - 1814-Soldiers led by Major-General <U>Robert Ross</U> burnt down White House.
 - title: Financial Institution
   dateFrom: 1832-01-01
   dateTo:  ''
   subHeaders: 
   - title: The Montreal Stock Exchange
     texts:
-    - The Montreal Stock Exchange was established in 1832.
+    - The <I>Montreal Stock Exchange</I> was established in 1832.
     - Canada's economy was based mainly on farming, exporting - fur,fish,timber.
