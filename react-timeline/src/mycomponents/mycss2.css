@@ -1,0 +1,42 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #EF3340;
+}
+
+.leftpane {
+    width: 10%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+    
+}
+
+.middlepane {
+    width: 75%;
+    height: 100%;
+    float: left;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-left: solid #EF3340 50px;
+    border-right: solid #EF3340 50px;
+    border-bottom: none;
+    border-top: none;
+}
+
+.rightpane {
+    width: 10%;
+    height: 100%;
+    position: relative;
+    float: right;
+}
+/*.ul {list-style: none}
+li::marker {content: "•"; color: red;display: inline-block; width: 1em;margin-left: -1em}
+*/

@@ -1,0 +1,133 @@
+!!main.java.hrk.timeline.pojo.Timeline
+title: History of Canada
+headers: 
+- title: Aboriginal peoples
+  dateFrom: -1000-01-01
+  dateTo:  ''
+  texts:
+  subHeaders: 
+  - title: Indians
+    texts:
+    - The native people were called Indians by the first Europeans because they thought they had reached the East Indies.
+    - The <I><U>Huron-Wendat</I></U> of Great Lakes region, like <I><U>Iroquois</I></U> were farmers and hunters.
+    - The <I><U>Cree</I></U> and <I><U>Dene</I></U> of the Northwest were hunter-gatherers.
+    - The <I><U>Sioux</I></U> were nomadic, following the bison herd.
+    - The <I><U>Inuit</I></U> lived off Arctic wildlife.
+    - <I><U>West Coast</I></U> natives preserved fish by drying and smoking.
+- title: The first Europeans
+  dateFrom: 1000-01-01
+  dateTo:  ''
+  subHeaders: 
+  - title: Vikings
+    texts:
+    - The Vikings from Iceland reached Labrador and the island of Newfoundland.
+    - The remains of their settlement, l'Anse aux Meadows, are a World Heritage site.
+  - title: Europeans exploration
+    texts:
+    - Expedition of John Cabot.
+    - First to draw a map of Canada's East coast.
+- title: Naming Canada
+  dateFrom: 1534-01-01
+  dateTo:  1550-01-01
+  subHeaders: 
+  - title: Jacques Cartier
+    texts:
+    - Jacques Cartier made three voyages across the Atlantic, claiming the land for King Francis.
+    - Cartier heard two captured natives speak the Iroquoian word <I>kanata</I>, meaning "village".
+    - By 1550s, the name of Canada began appearing on maps.    
+- title: Royal New France
+  dateFrom: 1604-01-01
+  dateTo:  1701-01-01
+  subHeaders: 
+  - title: Acadia
+    texts:
+    - Pierre de Monts and Samuel de Champlain established settlement at Port-Royal in Acadia(present day Nova-Scotia) in 1604.
+  - title: Quebec
+    dateFrom: ''
+    dateTo:  ''
+    texts:
+    - In 1608 Champlain build a fortress at what is now Quebec City.
+  - title: Acadia
+    texts:
+    - Pierre de Monts and Samuel de Champlain established settlement at Port-Royal in Acadia(present day Nova-Scotia) in 1604.        
+  - title: Peace treaty
+    texts:
+    - The French allied with the Algonquin,Montagnais and Huron to fight against historic enemy Iroquois.
+    - Peace was made in 1701 between French allies and Iroquois.
+    - Leaders like Jean Talon,Bishop Laval and Count Frontenac built a French Empire in North America that reached from Hudson Bay to the Gulf of Mexico.
+- title: English Connection
+  dateFrom: 1670-01-01
+  dateTo:  ''
+  subHeaders: 
+  - title: Hudson's Bay Company
+    texts:
+    - King Charles II of England granted the Hudson's Bay Company exclusive trading rights over the watershed draining into Hudson Bay.            
+- title: Democracy
+  dateFrom: 1758-01-01
+  dateTo:  ''
+  subHeaders: 
+  - title: First assembly
+    texts:
+    - The first representative assembly was elected in Halifax,Nova Scotia.
+- title: Battle of the plains
+  dateFrom: 1759-01-01
+  dateTo:  ''
+  subHeaders: 
+  - title: Abraham,Quebec City
+    texts:
+    - British defeated the French marking the end of France's empire in America.
+    - British renamed the colony the "Province of Quebec".
+    - The French speaking Catholic people are known as <I>habitants</I> or <I>Canadiens.</I>        
+- title: Quebec Act
+  dateFrom: 1774-01-01
+  dateTo:  ''
+  subHeaders: 
+  - title: Religious freedom
+    texts:
+    - Religious freedom for Catholics and permission to hold public office.
+    - French civil law in parallel with British criminal law.
+- title: United States
+  dateFrom: 1776-01-01
+  dateTo:  ''
+  subHeaders: 
+  - title: Independence
+    texts:
+    - 13 British colonies to the south of Quebex declared independence and formed the United States.
+    - More than 40000 people loyal to the Crown called "Loyalists" fled the American Revolution to settle in Nova Scotia and Quebec
+- title: Slavery
+  dateFrom: 1791-01-01
+  dateTo:  1833-01-01
+  subHeaders: 
+  - title: The Constitutional Act
+    dateFrom: 1791-01-01
+    dateTo:  ''
+    texts:
+    - Province of Quebec divided into Upper Canada (later Ontario) which was mainly loyalists, Protestant,English speaking and Lower Canada(later Quebec) Catholic French speaking.      
+  - title: Freetown
+    dateFrom: 1792-01-01
+    dateTo:  ''
+    texts:
+    - Some black Nova Scotians who were given poor land, moved on to establish Freetown, Sierra Leone(West Africa), a new British colony for freed slaves.
+  - title: Simcoe
+    dateFrom: 1792-01-01
+    dateTo:  1833-01-01
+    texts:
+    - John Graves Simcoe led Upper Canada to move towards abolition of slavery.
+    - Buying and selling of slaves was abolished throughout British empire in 1833.
+- title: The fight for Canada
+  dateFrom: 1812-01-01
+  dateTo:  1814-01-01
+  subHeaders: 
+  - title: Present day border between CAN and USA
+    texts:
+    - 1813 - lieutenant-Colonel Charles de Salaberry and mostly French soldiers turned back Americans at Chateauguay, Montreal.
+    - 1813-Americans burned down parliament building in York (now Toronto)
+    - 1814-Soldiers led by Major-General Robert Ross burnt down White House.
+- title: Financial Institution
+  dateFrom: 1832-01-01
+  dateTo:  ''
+  subHeaders: 
+  - title: The Montreal Stock Exchange
+    texts:
+    - The Montreal Stock Exchange was established in 1832.
+    - Canada's economy was based mainly on farming, exporting - fur,fish,timber.

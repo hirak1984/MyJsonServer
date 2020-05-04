@@ -1,11 +1,7 @@
-import React from 'react';
-import MyComponent1 from './mycomponents/MyComponent1'
+import React from "react";
+import { BrowserRouter as Router, Route,Redirect ,Switch,Link  } from "react-router-dom";
+import MyComponent from './mycomponents/MyComponent2'
 
-
-function App() {
-  return (
-    <MyComponent1/>
-  );
+export default function App() {
+  return <MyComponent/>
 }
-
-export default App;
