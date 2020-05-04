@@ -2,7 +2,7 @@ Converts information provided in CSV format into JSON format and vice-versa.
 
 ## Usage (App jar level)- ##
 
-`C:\jdk1.8.0_251\bin\java -cp YmlToJSONConverter-1.0.jar:lib/* main.java.hrk.timeline.App YML /data/yaml /data `
+`java -cp YmlToJSONConverter-1.0.jar:lib/* main.java.hrk.timeline.App YML /data/yaml /data `
 
 
 
