@@ -117,7 +117,8 @@ headers:
   subHeaders: 
   - title: Present day border between CAN and USA
     texts:
-    - 1813 - lieutenant-Colonel <U>Charles de Salaberry</U> and mostly French soldiers turned back Americans at Chateauguay, Montreal.
+    - 1812 - US launched an invasion in June 1812, believing it would be easy to conquer Canada.
+    - 1813 - Lieutenant-Colonel <U>Charles de Salaberry</U> and mostly French soldiers turned back Americans at Chateauguay, Montreal.
     - 1813-Americans burned down parliament building in York (now Toronto)
     - 1814-Soldiers led by Major-General <U>Robert Ross</U> burnt down White House.
 - title: Financial Institution
@@ -128,3 +129,35 @@ headers:
     texts:
     - The <I>Montreal Stock Exchange</I> was established in 1832.
     - Canada's economy was based mainly on farming, exporting - fur,fish,timber.
+- title: Responsible Government
+  dateFrom: 1847-01-01
+  dateTo:  1849-01-01
+  subHeaders: 
+  - title: The system we have today
+    texts:
+    - If the government loses a confidence vote in the assembly it must resign.
+    - First responsible government in Nova Scotia in 1847-48
+    - In 1848-49 governor of united Canada <U>Lord Elgin</U> introduced responsible government.
+- title: Confederation
+  dateFrom: 1864-01-01
+  dateTo:  1885-01-01
+  subHeaders: 
+  - title: The Dominion of Canada
+    dateFrom: 1864-01-01
+    dateTo:  1873-01-01
+    texts:
+    - Representatives of Nova Scotia, New Brunswick and the Province of Canada worked together to establish a new country.
+    - These men are known as the <B>Fathers of Confederation</B>.
+    - Two levels of government - federal and provincial.
+    - The old province of Canada was split into Ontario and Quebec.
+    - All of them together formed a new country called the <I>Dominion of Canada</I>.
+    - 1867 - <U> British North America Act</U> was passed and the Dominion of Canada was officially born on <B>July1 ,1867</B>
+    - Until 1982 July 1 was celebrated as "Dominion Day", today officially known as Canada Day.
+    - 1873 - North West Mounted Policy (NWMP) was eslablished. THey are the ancestors of modern day Royal Canadian Mounted Police(RCMP).
+  - title: Manitoba and Saskatchewan
+    dateFrom: 1869-01-01
+    dateTo:  1885-01-01
+    texts:
+    - 1869 - The Metis under the leadership of <U>Louis Riel</U> led an armed uprising. 
+    - 1870 - They were defeated and a new province Manitoba was established.
+    - 1885 - Another uprising led by Riel in present day Saskatchewan was defeated.
