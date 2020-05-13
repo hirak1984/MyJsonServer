@@ -43,6 +43,8 @@ export class MyComponent2 extends Component {
                     <VerticalTimeline > {
                         this.state.data.sort((d1, d2) => sortDates(d1.DateFrom, d2.DateFrom, '')).map(d => {
                             return (< VerticalTimelineElement className="vertical-timeline-element--work"
+                                contentStyle={styles.contentstyle}
+                                contentArrowStyle={styles.contentArrowStyle}
                                 date={dateLabel(d.DateFrom, d.DateTo)}
                                 key={uniqueIdGenerator(d.DateFrom)}
                                 iconStyle={
@@ -65,4 +67,17 @@ export class MyComponent2 extends Component {
     }
 }
 
+  const styles= {
+    contentArrowStyle: {
+        borderRight: '20px solid  #EF3340'
+    },
+    contentstyle: {
+        background:'#fff', 
+        border: '2px solid  #EF3340',
+        color: '#000' ,
+        mozBoxShadow:'1px 1px 5px rgba(33,33,33,1)',
+        webkitBoxShadow: '1px 1px 5px rgba(33,33,33,.7)',
+        boxShadow: '1px 1px 5px rgba(33,33,33,.7)'
+    }
+};
 export default MyComponent2;

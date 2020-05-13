@@ -37,6 +37,6 @@ html {
     position: relative;
     float: right;
 }
-/*.ul {list-style: none}
-li::marker {content: "•"; color: red;display: inline-block; width: 1em;margin-left: -1em}
-*/
+.arrowStyle {
+    border-right: 7px solid  #EF3340;
+}
